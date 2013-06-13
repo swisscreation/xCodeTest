@@ -23,6 +23,7 @@
 		691A58D7176A598900474F54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691A58B2176A598900474F54 /* Foundation.framework */; };
 		691A58DF176A598900474F54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 691A58DD176A598900474F54 /* InfoPlist.strings */; };
 		691A58E2176A598900474F54 /* TestGitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 691A58E1176A598900474F54 /* TestGitHubTests.m */; };
+		691A58ED176A5FDC00474F54 /* NSObject+TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 691A58EC176A5FDC00474F54 /* NSObject+TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		691A58DE176A598900474F54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		691A58E0176A598900474F54 /* TestGitHubTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGitHubTests.h; sourceTree = "<group>"; };
 		691A58E1176A598900474F54 /* TestGitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitHubTests.m; sourceTree = "<group>"; };
+		691A58EB176A5FDC00474F54 /* NSObject+TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TestObject.h"; sourceTree = "<group>"; };
+		691A58EC176A5FDC00474F54 /* NSObject+TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TestObject.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				691A58CB176A598900474F54 /* swissViewController.h */,
 				691A58CC176A598900474F54 /* swissViewController.m */,
 				691A58B7176A598900474F54 /* Supporting Files */,
+				691A58EB176A5FDC00474F54 /* NSObject+TestObject.h */,
+				691A58EC176A5FDC00474F54 /* NSObject+TestObject.m */,
 			);
 			path = TestGitHub;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				691A58BD176A598900474F54 /* main.m in Sources */,
 				691A58C1176A598900474F54 /* swissAppDelegate.m in Sources */,
 				691A58CD176A598900474F54 /* swissViewController.m in Sources */,
+				691A58ED176A5FDC00474F54 /* NSObject+TestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
